@@ -1,0 +1,14 @@
+path: path: /mnt/c/Users/patha/Documents/drone_dataset/
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Blocks', 'Sphere']
+
+roboflow:
+  workspace: project
+  project: ffff-apvae
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/ffff-apvae/dataset/1
